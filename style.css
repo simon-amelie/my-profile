@@ -1,0 +1,73 @@
+/* Colors and font */
+body {
+	background-color:#8CAE68;
+	color:#541388; 
+	font-family : 'Red Hat Mono', monospace ;
+	font-size:17px; 
+	font-family: courier;;
+}
+h1 {
+	color:#541388;
+	font-family: agency fb;
+	font-weight: 300;
+	letter-spacing:4px;
+	font-size:50px 
+}
+h2 {
+	color: #8A84E2;
+	font-family : 'Noto Serif', serif ;
+}
+a {
+	text-decoration: none;
+	font-weight: 600;
+}
+a:hover {
+	color:#8A84E2;
+}
+
+
+
+
+/* Cuqtom design wuth class*/ 
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius:50%
+}
+.btn-purple {
+	background-color: #8A84E2;
+	color: #F6F7F8;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+.btn-purple:hover {
+	background-color: #243119; 
+	color: #F6F7F8;
+
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size:50px;
+	color: purple;
+}
+#introduction p {
+	margin-bottom: 40px;
+
+}
